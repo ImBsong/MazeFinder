@@ -1,0 +1,13 @@
+MazeFinder, version 1.1
+Log file created
+
+[INFO]: Thu Jan 21 08:24:12 2021: Graph::initGraph()
+[INFO]: Thu Jan 21 08:24:12 2021: Graph::randomizeStartEnd()
+[INFO]: Thu Jan 21 08:24:12 2021: Graph::initMatrix()
+[INFO]: Thu Jan 21 08:24:12 2021: Graph::initGui()
+[INFO]: Thu Jan 21 08:24:13 2021: Graph::initWindow()
+[INFO]: Thu Jan 21 08:24:16 2021: Graph::DFSexplore()
+
+
+0 warnings
+0 errors
