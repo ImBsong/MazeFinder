@@ -9,9 +9,7 @@ namespace MazeLog {
 
     public:
 
-
-        // If you can´t/dont-want-to use C++11, remove the "class" word after enum
-        enum class e_logType { LOG_ERROR, LOG_WARNING, LOG_INFO };
+        enum e_logType { LOG_ERROR, LOG_WARNING, LOG_INFO };
 
 
         // ctor 
@@ -76,7 +74,6 @@ namespace MazeLog {
 
         }
 
-
         // Overload << operator using C style strings
         friend FileLogger &operator << (FileLogger &logger, const char *text) {
 
@@ -91,12 +88,9 @@ namespace MazeLog {
             return logger;
         }
 
-
-        // Make it Non Copyable (or you can inherit from sf::NonCopyable if you want)
+        // Make it Non Copyable
         FileLogger(const FileLogger &) = delete;
         FileLogger &operator= (const FileLogger &) = delete;
-
-
 
     private:
 
@@ -105,7 +99,7 @@ namespace MazeLog {
         unsigned int            numWarnings;
         unsigned int            numErrors;
 
-    }; // class end
+    }; 
 
 }  // namespace
 

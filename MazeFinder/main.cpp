@@ -1,6 +1,8 @@
 #include "graph.h"
 #include "FileLogger.h"
 
+#include <iostream>
+
 /*
     Goal: Make an animated pathfinder
 
@@ -25,7 +27,17 @@ int main()
     //Randomize Time Seed
     std::srand(static_cast<unsigned int>(time(0)));
 
-    Graph graph(20); // n x n grid
+    float gridSize;
+    float blockSize;
+
+    std::cout << "Please enter desired GridSize (Ex: 30): ";
+    std::cin >> gridSize;
+    std::cout << '\n\n';
+
+    std::cout << "Please enter desired BlockSize (Ex: 30) ";
+    std::cin >> blockSize;
+
+    Graph graph(gridSize, blockSize); // Grid Size, Block Size
     graph.run();
     
     return 0;
