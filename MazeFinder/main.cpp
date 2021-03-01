@@ -29,12 +29,10 @@ int main()
 
     float gridSize;
     float blockSize;
-
+    
     std::cout << "Please enter desired GridSize (Ex: 30): ";
     std::cin >> gridSize;
-    std::cout << '\n\n';
-
-    std::cout << "Please enter desired BlockSize (Ex: 30) ";
+    std::cout << "Please enter desired BlockSize (Ex: 30): ";
     std::cin >> blockSize;
 
     Graph graph(gridSize, blockSize); // Grid Size, Block Size

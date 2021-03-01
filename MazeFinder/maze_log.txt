@@ -1,21 +1,11 @@
 MazeFinder, version 1.1
 Log file created
 
-[INFO]: Sun Feb 28 15:58:04 2021: Graph::initGraph()
-[INFO]: Sun Feb 28 15:58:04 2021: Graph::randomizeStartEnd()
-[INFO]: Sun Feb 28 15:58:04 2021: Graph::initMatrix()
-[INFO]: Sun Feb 28 15:58:04 2021: Graph::initWindow()
-[INFO]: Sun Feb 28 15:58:04 2021: Graph::initGui()
-[INFO]: Sun Feb 28 15:58:12 2021: Graph::DFSexplore()
-[INFO]: Sun Feb 28 15:58:13 2021: Graph::randomizeStartEnd()
-[INFO]: Sun Feb 28 15:58:13 2021: Graph::resetAllSquares()
-[INFO]: Sun Feb 28 15:58:20 2021: Graph::DFSexplore()
-[INFO]: Sun Feb 28 15:58:21 2021: Graph::randomizeStartEnd()
-[INFO]: Sun Feb 28 15:58:21 2021: Graph::resetAllSquares()
-[INFO]: Sun Feb 28 15:58:28 2021: Graph::BFSexplore()
-[INFO]: Sun Feb 28 15:58:29 2021: Graph::DFSexplore()
-[INFO]: Sun Feb 28 15:58:32 2021: Graph::randomizeStartEnd()
-[INFO]: Sun Feb 28 15:58:32 2021: Graph::resetAllSquares()
+[INFO]: Sun Feb 28 16:42:52 2021: Graph::initGraph()
+[INFO]: Sun Feb 28 16:42:52 2021: Graph::randomizeStartEnd()
+[INFO]: Sun Feb 28 16:42:52 2021: Graph::initMatrix()
+[INFO]: Sun Feb 28 16:42:52 2021: Graph::initWindow()
+[INFO]: Sun Feb 28 16:42:52 2021: Graph::initGui()
 
 
 0 warnings
